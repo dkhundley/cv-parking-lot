@@ -28,7 +28,7 @@ model = cv2.dnn.readNetFromCaffe(prototxt = 'models/MobileNetSSD_deploy.prototxt
 ## VIDEO STREAM
 ## ---------------------------------------------------------------------------------------------------------------------
 # Starting the video stream
-stream = VideoStream(src = 0).start()
+stream = VideoStream(src = 1).start()
 time.sleep(2.0)
 
 # Starting the FPS timer
