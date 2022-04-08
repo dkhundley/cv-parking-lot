@@ -44,9 +44,9 @@ while True:
 
     (height, width) = current_frame.shape[:2]
 
-    resized_image = cv2.resize(current_frame, (300, 300))
+    resized_image = cv2.resize(current_frame, (500, 500))
 
-    blob = cv2.dnn.blobFromImage(resized_image, (1/127.5), (300, 300), 127.5, swapRB = True)
+    blob = cv2.dnn.blobFromImage(resized_image, (1/127.5), (500, 500), 127.5, swapRB = True)
 
     model.setInput(blob)
 
