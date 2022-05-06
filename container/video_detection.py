@@ -37,7 +37,7 @@ while True:
         cv2.rectangle(frame, (x,y), (x+w, y+h), (0, 255, 255), 2)
 
     # Showing the current frame with appropriate bounding boxes
-    cv2.imshow('frame', frame)
+    cv2.imshow('Parking Lot Video Stream', frame)
 
     # Setting the breaking key to halt the video capture when manually triggered
     if cv2.waitKey(1) == ord('q'):
