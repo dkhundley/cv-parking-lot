@@ -33,6 +33,8 @@ https://github.com/github/gitignore/blob/master/R.gitignore
 # RStudio files
 .Rproj.user/
 
+*.DS_Store
+
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
